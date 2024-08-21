@@ -20,6 +20,7 @@
     <ol>
         <li>Kunjungi Website GC-INS</li>
         <li><a href="/register">Register</a></li>
+        <li><a href="/table">Table</a></li>
         <li>Lakukan Pembayaran</li>
     </ol>
     
