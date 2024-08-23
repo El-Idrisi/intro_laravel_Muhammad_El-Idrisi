@@ -32,12 +32,12 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1>Tabel</h1>
+                            {{ $title }}
                         </div>
                     </div>
                 </div><!-- /.container-fluid -->
             </section>
-            @yield('content')
+            {{ $slot }}
         </div>
 
         <!-- /.content-wrapper -->

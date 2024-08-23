@@ -18,6 +18,7 @@ return new class extends Migration
             $table->integer('tahun');
             $table->string('poster', 45);
             $table->foreignId('genre_id')->constrained()->onDelete('cascade');
+            $table->timestamps();
         });
     }
 

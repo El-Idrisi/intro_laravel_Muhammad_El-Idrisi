@@ -17,6 +17,7 @@ return new class extends Migration
             $table->foreignId('film_id')->constrained()->onDelete('cascade');
             $table->text('content');
             $table->integer('point');
+            $table->timestamps();
         });
     }
 

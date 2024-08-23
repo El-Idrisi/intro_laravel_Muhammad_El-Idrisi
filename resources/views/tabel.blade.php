@@ -1,6 +1,8 @@
-@extends('layouts.main')
 
-@section('content')
+<x-main>
+    <x-slot:title>
+        <h1>Table</h1>
+    </x-slot:title>
     <!-- Main content -->
     <section class="content">
 
@@ -80,4 +82,4 @@
 
     </section>
     <!-- /.content -->
-@endsection
+</x-main>
